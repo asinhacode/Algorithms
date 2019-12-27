@@ -43,20 +43,28 @@
  int	indexOf(Object elem) 
           Searches for the first occurence of the given argument, testing for equality using the equals method.
           
+          
  boolean	isEmpty() 
           Tests if this ArrayList has no components.
+          
  int	lastIndexOf(Object elem) 
           Returns the index of the last occurrence of the specified object in this ArrayList.
+          
  Object	remove(int index) 
           Removes the element at the specified position in this ArrayList.
+          
  Object	set(int index, Object element) 
           Replaces the element at the specified position in this ArrayList with the specified element.
+          
  int	size() 
           Returns the number of components in this ArrayList.
+          
  Object[]	toArray() 
           Returns an array containing all of the elements in this ArrayList in the correct order.
+          
  Object[]	toArray(Object[] a) 
           Returns an array containing all of the elements in this ArrayList in the correct order.
+          
  void	trimToSize() 
           Trims the capacity of this ArrayList to be the ArrayList's current size.
  */
