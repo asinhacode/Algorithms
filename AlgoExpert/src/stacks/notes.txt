@@ -1,0 +1,34 @@
+- INTRODUCTION -
+
+- CONCEPT: 
+
+place first  -- 5
+place second -- 4
+place third  -- 3
+
+- HOW IT APPEARS: "	LAST - IN - FIRST - OUT "
+
+	3 <TOP>    -- inserted last 
+	4
+	5 <BOTTOM> -- inserted first
+	
+- PEEK - can see the current top
+
+	3
+	
+
+- POP - to remove from the top
+
+- PUSH - feed it from the top
+
+- SUMMARY : "PUSH -- POP -- PEEK"
+
+
+- MIN / MAX STACK CONSTRUCTION
+find the lowest and highest value stored in the stack
+
+____| 5 | 7 | 2 |
+
+min | 5 | 5 | 2 |
+max | 5 | 7 | 7 |
+peek| 5 | 7 | 2 |
